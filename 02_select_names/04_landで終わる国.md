@@ -1,0 +1,7 @@
+# landで終わる国
+
+**テーブル構造:** `world(name, continent, area, population, gdp, capital)`
+
+```sql
+SELECT name FROM world WHERE name LIKE '%land'
+```
